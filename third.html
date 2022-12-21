@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+             *{
+            margin:0 auto;
+            padding:0;
+        }
+        .clear{
+            clear:both;
+        }
+        header{
+            width:1450px;
+            height:80px;
+            margin-top: 10px;
+            /* border: solid 1px red; */
+        }
+        #logo{
+            float: left;
+            width: 200px;
+            margin-left:20px;
+            margin-top: 10px;
+            /* border:solid 1px red; */
+        }
+        #menus{
+            float:right;
+            margin-top: 40px;
+            margin-right:20px;
+        }
+        #mainmenu li{
+            display: inline;
+            list-style-type: none;
+            text-align: right;
+            width: 800px;
+            margin-right: 15px;
+            /* border:solid 1px red; */
+        }
+        .maincontents{
+            width:1450px;
+            height: 650px;
+            margin-top: 10px;
+            /* border: solid 1px red; */
+        }
+        @font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Pretendard-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Bold.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    
+}
+#mainmenu{
+    font-family: 'Pretendard-Bold';
+}
+.info{
+    width: 1450px;
+    height: 1000px;
+    margin-top: 10px;
+    /* border: solid 1px red; */
+}
+footer{
+            width:1450px;
+            height: 100px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            /* border: solid 1px red; */
+        }
+#footerinfo{
+    float:left;
+    margin-top: 30px;
+    color: rgb(57, 57, 57);
+    font-family: 'Pretendard-Regular';
+    font-size: 12px;
+    margin-left: 30px;
+}
+#footerlogo{
+    margin-left: 10px;
+    margin-top: 20px;
+    float:left;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+a:hover{
+    color:#ff7900;
+    transition: 0.3s;
+}
+.firstinfo{
+    margin:20px;
+    width:1400px;
+    /* border: solid 1px red; */
+}
+table{
+    width: 1400px;
+}
+td{
+    border-top: solid 4px;
+    border-bottom: solid 0;
+    border-top-color: black;
+    border-bottom-color:black;
+    border-left-color: white;
+    border-right-color: white;
+    padding: 20px 0px 30px 0px;
+    
+}
+
+td{
+    font-size: 24px;
+    font-family: Pretendard-Bold;
+}
+#line{
+    width:1400px;
+    height: 4px;
+    background-color: black;
+}
+.first{
+    transition: all 0.2s linear;
+}
+.first:hover{
+    transform: rotate( -5deg );
+}
+.second{
+    transition: all 0.2s linear;
+}
+.second:hover{
+    transform: rotate( -5deg );
+}
+    </style>
+</head>
+<body>
+    <header>
+        <div id="logo"><a href='index.html'><img src="mainlogo.png" width="60"></a></div>
+        <nav id="menus">
+            <ul id="mainmenu">
+                <a href='first.html'><li>기후위기</li></a>
+                <a href='second.html'><li>탄소중립</li></a>
+                <a href='third.html'><li>우리의 약속</li></a>
+                <a href='fourth.html'><li>개인의 실천</li></a>
+                <a href='earth.html'><li>EARTH</li></a>
+            </ul>
+        </nav>
+    </header>
+    <section class='info'>
+        <section class="firstinfo">
+        <br>
+        <br>
+        <img class='first'src="fourthimg/world.png" width="150">
+        <br>
+        <br>
+        <table>
+            <tr>
+                <td> <img src='fourthimg/one.png' width="80">&nbsp; &nbsp;&nbsp; 기후변화에 관한 정부 간 합의체, 온실가스 배출량 증가로 지구온난화가 심화돼간다는 첫 보고서 발간</td> 
+            </tr>
+            <tr>
+                <td>  <img src='fourthimg/two.png' width="80">&nbsp;&nbsp;&nbsp;리우 지구정상회의에서 유엔기후변화협약을 확립하고 온실가스 감축을 위한 자발적 행동 촉구</td>
+            </tr>
+            <tr>
+                <td>  <img src='fourthimg/three.png' width="80">&nbsp;&nbsp;&nbsp;일본 교토에서 개최된 제3차 유엔기후변화협약 당사국총회에서 선진국의 온실가스 감축 의무를 
+                        부과한 교토 의정서 채택</td>
+            </tr>
+            <tr> <td> <img src='fourthimg/four.png' width="80">&nbsp;&nbsp;&nbsp;프랑스 파리에서 열린 제21차 유엔기후변화협약 당사국총회에서 교토의정서 이후
+                     국제사회 기후변화 대응의 기반이 된 파리협정 채택</td></tr>
+        </table>
+        <div id="line"></div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <img class='second'src="fourthimg/we.png" width="200">
+        <br>
+        <br>
+        <table>
+            <tr>
+                <td> 재생에너지 시설 확대 | 22년 댐내 수상태양광 7개소, 통합바이오가스화 시설 신규 4개소</td> 
+            </tr>
+            <tr>
+                <td> 무공해차 보급 확대 | 22년 전기차 44.6만대 </td>
+            </tr>
+            <tr>
+                <td> 탄소흡수원 확대 | 22년 수소차 5.4만대</td>
+            </tr>
+        </table>
+        <div id="line"></div>
+    </section>
+
+
+    <footer>
+        <div id="footer_box">
+        <div id="footerlogo"><a href='index.html'><img src="mainlogo.png" width="50"></a></div>
+        <div id="footerinfo">
+            <p> 디자이너의 기후위기 웹사이트 </p>
+            <p> 계원예술대학교 디지털미디어디자인과</p>
+        </div>
+        </div>
+    </footer>
+    
+</body>
+</html>

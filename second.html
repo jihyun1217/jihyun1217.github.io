@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+             *{
+            margin:0 auto;
+            padding:0;
+        }
+        .clear{
+            clear:both;
+        }
+        header{
+            width:1450px;
+            height:80px;
+            margin-top: 10px;
+            /* border: solid 1px red; */
+        }
+        #logo{
+            float: left;
+            width: 200px;
+            margin-left:20px;
+            margin-top: 10px;
+            /* border:solid 1px red; */
+        }
+        #menus{
+            float:right;
+            margin-top: 40px;
+            margin-right:20px;
+        }
+        #mainmenu li{
+            display: inline;
+            list-style-type: none;
+            text-align: right;
+            width: 800px;
+            margin-right: 15px;
+            /* border:solid 1px red; */
+        }
+        .maincontents{
+            width:1450px;
+            height: 650px;
+            margin-top: 10px;
+            /* border: solid 1px red; */
+        }
+        @font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Pretendard-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Bold.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    
+}
+#mainmenu{
+    font-family: 'Pretendard-Bold';
+}
+#firstsen{
+    
+    margin: 40px 0 0 30px;
+    width:800px;
+    /* border: solid 1px red; */
+}
+.info{
+    width: 1450px;
+    height: 650px;
+    margin-top: 10px;
+    /* border: solid 1px red; */
+}
+footer{
+            width:1450px;
+            height: 100px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            /* border: solid 1px red; */
+        }
+    #footerinfo{
+    float:left;
+    margin-top: 30px;
+    color: rgb(57, 57, 57);
+    font-family: 'Pretendard-Regular';
+    font-size: 12px;
+    margin-left: 30px;
+}
+#footerlogo{
+    margin-left: 10px;
+    margin-top: 20px;
+    float:left;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+a:hover{
+    color:#ff7900;
+    transition: 0.3s;
+}
+.summ{
+    font-family: 'Pretendard-Bold';
+    line-height: 1.5em;
+    font-size: 20px;
+}
+#numbers{
+    width: 1417px;
+    height: 100px;
+    margin-top: 30px;
+    /* border: solid 1px red; */
+}
+#line{
+     width:1450px;
+     background-color: black;
+     height:3px;
+}
+.first{
+    transition: all 0.2s linear;
+}
+.first:hover{
+    transform: rotate( -5deg );
+}
+#backgroundblack{
+    width:100%;
+    background-color: black;
+    height: 1350px;
+}
+#contents{
+    margin: 40px;
+    margin-left:65px;
+    width:500px;
+    height:700px;
+    /* border: solid 1px red; */
+    float:left;
+    text-align: right;
+}
+#contentssum{
+    margin:40px 60px 0 0;
+    width:800px;
+    height:700px;
+    /* border:solid 1px red; */
+    float:right;
+    font-family: Pretendard-Bold;
+    color:white;
+    line-height: 1.5em;
+    text-align: left;
+}
+#numb1{
+    overflow: hidden;
+    object-fit: cover;
+    transform: scale(1.0);
+    transition: transform linear 0.2s;
+}
+#numb1:hover{
+    transform: scale(1.1);
+    transition: transform 0.2s;
+}
+#numb2{
+    overflow: hidden;
+    object-fit: cover;
+    transform: scale(1.0);
+    transition: transform linear 0.2s;
+}
+#numb2:hover{
+    transform: scale(1.1);
+    transition: transform 0.2s;
+}
+#numb3{
+    overflow: hidden;
+    object-fit: cover;
+    transform: scale(1.0);
+    transition: transform linear 0.2s;
+}
+#numb3:hover{
+    transform: scale(1.1);
+    transition: transform 0.2s;
+}
+#numb4{
+    overflow: hidden;
+    object-fit: cover;
+    transform: scale(1.0);
+    transition: transform linear 0.2s;
+}
+#numb4:hover{
+    transform: scale(1.1);
+    transition: transform 0.2s;
+}
+#numb5{
+    overflow: hidden;
+    object-fit: cover;
+    transform: scale(1.0);
+    transition: transform linear 0.2s;
+}
+#numb5:hover{
+    transform: scale(1.1);
+    transition: transform 0.2s;
+}
+#numb6{
+    overflow: hidden;
+    object-fit: cover;
+    transform: scale(1.0);
+    transition: transform linear 0.2s;
+}
+#numb6:hover{
+    transform: scale(1.1);
+    transition: transform 0.2s;
+}
+
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <div id="logo"><a href='index.html'><img src="mainlogo.png" width="60"></a></div>
+        <nav id="menus">
+            <ul id="mainmenu">
+                <a href='first.html'><li>기후위기</li></a>
+                <a href='second.html'><li>탄소중립</li></a>
+                <a href='third.html'><li>우리의 약속</li></a>
+                <a href='fourth.html'><li>개인의 실천</li></a>
+                <a href='earth.html'><li>EARTH</li></a>
+            </ul>
+        </nav>
+    </header>
+    <section class='info'>
+        <center>
+            <div id="firstsen">
+                <div id="first"><img class="first" src="thirdimg/third1.png"width='800'></div>
+                <br>
+                <br>
+                <div> <p class="summ"> 
+                    탄소중립은 대기 중 이산화탄소 농도 증가를 막기 위해 인간 활동에 의한<br>
+                    배출량은 최대한 감소시키고, 흡수량은 증대하여 순 배출량이 ‘0’이 된 상태를 말한다.<br>
+                    즉,인간 활동으로 배출하는 온실가스는 최대한 줄이고,<br>
+                    배출되는 온실가스는 산림 흡수나 CCUS로 제거하여<br>
+                    실질적인 배출량을 ‘0’ 수준으로 낮추는 것을 탄소중립(Net zero)이라고 한다.
+                    </p></div>
+                </div>
+                <br>
+                <br>
+                <br>
+                <div id="numbers">
+                <a href='#num1'> <img id='numb1'src="thirdimg/zero.png" width="90"> </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href='#num2'><img id='numb2'src="thirdimg/fifteen.png" width="90"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href='#num3'><img id='numb3'src="thirdimg/eleven.png" width="90"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href='#num4'><img id='numb4'src="thirdimg/fourty.png" width="90"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href='#num5'><img id='numb5'src="thirdimg/hundred.png" width="90"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href='#num6'><img id='numb6'src="thirdimg/last.png" width="90"></a></div> 
+        </center>
+            <div class="clear"></div>
+            <br>
+            <!-- <div id="line"></div> -->
+    </section>
+    <section id="backgroundblack">
+    <div id="contents">
+         <img id='num1'src="thirdimg/num1.png" width="200"><br><br><img id='num2'src="thirdimg/num2.png"width="220"><br><br><img id='num3'src="thirdimg/num3.png"width="220"><br><br>
+        <img id='num4'src="thirdimg/num4.png"width="220"><br><br><img id='num5'src="thirdimg/num5.png"width="280"><br><br><img id='num6'src="thirdimg/num6.png"width="280"> </div>
+    <div id="contentssum">  
+        <br>
+        <br>
+        <br>
+        <p>대기 중 이산화탄소 농도 증가를 막기 위해 인간 활동에 의한 배출량을 최대한 <br>
+        감소시키고 흡수량을 증대해 순 배출량이 0이 되는 것을 탄소중립이라고 한다.</p>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <p>산업화 이전 대비 지구 평균온도가 2도 상승할 경우 기후변화로 인한 위험이 많이 늘어나므로 <br>
+        1.5도 이내로 억제하기 위해 전 지구적인 2050년 탄소중립의 필요성이 제기되었다.</p>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <p>한국 온실가스 총배출량은 2018년 기준 세계 1위로 추정하며 OECD국가 중 5위에 해당한다.</p>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <p>한국은 전 세계적인 2030년 국가온실가스감축목표 상향에 동참하며, 2030 국가<br>
+           온실가스감축목표를 2018년 대비 기존 26.3%에서 40%로 상향했다.</p>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <p>기업 사용 전액량의 100%를 재생에너지 전력으로 조달하겠다는 글로벌 에너지 전환 캠페인으로<br>
+            애플과 구글, BMW 등 주요 글로벌 기업은 잇따라 RE100을 선언했다.2021년 5월 기준 전 세계<br> 
+            32개 기업이 참여하고 있으며 RE100 도입 추세를 따라가지 못할 경우 새로운 무역장벽이 될 수 있다.</p>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <p>2025년 파리협정 이후 탄소중립을 선언, 지지한 국가는 2021년 9월 현재 전 세계 134개국에 이르렀다.<br>
+            탄소중립은 기후위기 대응을 위한 움직임을 넘어 전 세계 경제 질서와 산업구조가 근본적으로 바뀌고 있음을 의미한다. </p>
+    </div>
+   </section>
+    
+
+
+    <footer>
+        <div id="footer_box">
+        <div id="footerlogo"><a href='index.html'><img src="mainlogo.png" width="50"></a></div>
+        <div id="footerinfo">
+            <p> 디자이너의 기후위기 웹사이트 </p>
+            <p> 계원예술대학교 디지털미디어디자인과</p>
+        </div>
+        </div>
+        
+    </footer>
+    
+</body>
+</html>

@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+             *{
+            margin:0 auto;
+            padding:0;
+        }
+        .clear{
+            clear:both;
+        }
+        header{
+            width:1450px;
+            height:80px;
+            margin-top: 10px;
+            /* border: solid 1px red; */
+        }
+        #logo{
+            float: left;
+            width: 200px;
+            margin-left:20px;
+            margin-top: 10px;
+            /* border:solid 1px red; */
+        }
+        #menus{
+            float:right;
+            margin-top: 40px;
+            margin-right:20px;
+        }
+        #mainmenu li{
+            display: inline;
+            list-style-type: none;
+            text-align: right;
+            width: 800px;
+            margin-right: 15px;
+            /* border:solid 1px red; */
+        }
+        .maincontents{
+            width:1450px;
+            height: 1000px;
+            margin-top: 10px;
+            /* border: solid 1px red; */
+        }
+        @font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Pretendard-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Bold.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    
+}
+#mainmenu{
+    font-family: 'Pretendard-Bold';
+}
+.info{
+    width: 1450px;
+    height: 1000px;
+    margin-top: 10px;
+    /* border: solid 1px red; */
+}
+footer{
+            width:1450px;
+            height: 100px;
+            margin-top: 230px;
+            margin-bottom: 10px;
+            /* border: solid 1px red; */
+        }
+ #footerinfo{
+    float:left;
+    margin-top: 30px;
+    color: rgb(57, 57, 57);
+    font-family: 'Pretendard-Regular';
+    font-size: 12px;
+    margin-left: 30px;
+}
+#footerlogo{
+    margin-left: 10px;
+    margin-top: 20px;
+    float:left;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+a:hover{
+    color:#ff7900;
+    transition: 0.3s;
+}
+#firstimg{
+    margin:40px;
+}
+.images{
+    width:1450px;
+    height: 1000px;
+}
+#f{
+    overflow: hidden;
+    object-fit: cover;
+    transform: scale(1.0);
+    transition: transform linear 0.3s;
+}
+#f:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s;
+}
+#s{
+    overflow: hidden;
+    object-fit: cover;
+    transform: scale(1.0);
+    transition: transform linear 0.3s;
+}
+#s:hover{
+    transform: scale(1.1);
+    transition: transform 0.2s;
+}
+#t{
+    overflow: hidden;
+    object-fit: cover;
+    transform: scale(1.0);
+    transition: transform linear 0.3s;
+}
+#t:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s;
+}
+#fo{
+    overflow: hidden;
+    object-fit: cover;
+    transform: scale(1.0);
+    transition: transform linear 0.3s;
+}
+#fo:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s;
+}
+#fi{
+    overflow: hidden;
+    object-fit: cover;
+    transform: scale(1.0);
+    transition: transform linear 0.3s;
+}
+#fi:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s;
+}
+#si{
+    overflow: hidden;
+    object-fit: cover;
+    transform: scale(1.0);
+    transition: transform linear 0.3s;
+}
+#si:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <div id="logo"><a href='index.html'><img src="mainlogo.png" width="60"></a></div>
+        <nav id="menus">
+            <ul id="mainmenu">
+                <a href='first.html'><li>기후위기</li></a>
+                <a href='second.html'><li>탄소중립</li></a>
+                <a href='third.html'><li>우리의 약속</li></a>
+                <a href='fourth.html'><li>개인의 실천</li></a>
+                <a href='earth.html'><li>EARTH</li></a>
+            </ul>
+        </nav>
+    </header>
+    <section class='info'>
+        <section class="images">
+        <div id='firstimg'> <center> <img src="fifthimg/fourpage2.png" width="1400"> </center> </div>
+        <center> 
+        <div id="secondimg">
+            <img id='f'src='fifthimg/first.png'width='300'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img id='s' src='fifthimg/second.png'width='300'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img id='t'src='fifthimg/third.png'width='300'><br><br>
+            <img id='fo'src='fifthimg/fourth.png'width='300'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img id='fi'src='fifthimg/fifth.png'width='300'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img id='si' src='fifthimg/sixth.png'width='300'>
+        </div>
+        </center>
+    </section>
+    </section>
+
+
+    <footer>
+        <div id="footer_box">
+        <div id="footerlogo"><a href='index.html'><img src="mainlogo.png" width="50"></a></div>
+        <div id="footerinfo">
+            <p> 디자이너의 기후위기 웹사이트 </p>
+            <p> 계원예술대학교 디지털미디어디자인과</p>
+        </div>
+        </div>
+    </footer>
+    
+</body>
+</html>

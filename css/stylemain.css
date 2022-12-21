@@ -1,0 +1,46 @@
+section{}
+.hovring .firstrectangle img {
+    display: none;
+}
+.hovring .firstrectangle:hover img{
+    display: block;
+}
+.hovring .fourthrectangle img {
+    display: none;
+}
+.hovring .fourthrectangle:hover img{
+    display: block;
+}
+.hovring .seccircle img {
+    display: none;
+}
+.hovring .seccircle:hover img{
+    display:block;
+}
+.hovring .seventhrectangle img {
+    display: none;
+}
+.hovring .seventhrectangle:hover img{
+    display:block;
+}
+
+
+
+.hovring .firstrectangle:hover {
+    background-color: #ff7900;
+}
+
+.hovring .fourthrectangle:hover{
+    background-color: #ff7900;
+}
+
+.hovring .seccircle:hover {
+    background-color: #ff7900;
+}
+
+.hovring .seventhrectangle:hover {
+    background-color: #ff7900;
+}
+
+
+

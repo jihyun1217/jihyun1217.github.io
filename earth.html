@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+             *{
+            margin:0 auto;
+            padding:0;
+        }
+        .clear{
+            clear:both;
+        }
+        header{
+            width:1450px;
+            height:80px;
+            margin-top: 10px;
+            /* border: solid 1px red; */
+        }
+        #logo{
+            float: left;
+            width: 200px;
+            margin-left:20px;
+            margin-top: 10px;
+            /* border:solid 1px red; */
+        }
+        #menus{
+            float:right;
+            margin-top: 40px;
+            margin-right:20px;
+        }
+        #mainmenu li{
+            display: inline;
+            list-style-type: none;
+            text-align: right;
+            width: 800px;
+            margin-right: 15px;
+            /* border:solid 1px red; */
+        }
+        @font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Pretendard-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Bold.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    
+}
+#mainmenu{
+    font-family: 'Pretendard-Bold';
+}
+.info{
+    width: 1450px;
+    height: 1700px;
+    margin-top: 10px;
+    /* border: solid 1px red; */
+}
+footer{
+            width:1450px;
+            height: 100px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            /* border: solid 1px red; */
+        }
+#footerinfo{
+    float:left;
+    margin-top: 30px;
+    color: rgb(57, 57, 57);
+    font-family: 'Pretendard-Regular';
+    font-size: 12px;
+    margin-left: 30px;
+}
+#footerlogo{
+    margin-left: 10px;
+    margin-top: 20px;
+    float:left;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+a:hover{
+    color:#ff7900;
+    transition: 0.3s;
+}
+#titlerectangle{
+    width: 500px;
+    height: 300px;
+    background-color: #ff7900;
+}
+#titleimg{
+    margin-right: 100px;
+}
+#earthsen{
+    float:left;
+    width:500px;
+    margin-left: 20px;
+    margin-top: px;
+    /* border:solid 1px red; */
+}
+#earthturn{
+    text-align: right;
+    float:right;
+    width:800px;
+        margin-right: 20px;
+    margin-top: 30px;
+    /* border: solid 1px red; */
+}
+#firsttext{
+    margin-top: 190px;
+    float:right;
+    margin-right: 20px;
+    width:600px;
+    text-align: right;
+    /* border: solid 1px red; */
+}
+.summ{
+    font-family: 'Pretendard-Bold';
+    line-height: 1.5em;
+    font-size: 20px;
+}
+.earth{
+    transition: all 0.8s linear;
+}
+.earth:hover{
+    transform: rotate( 270deg );
+}
+h1{
+    font-family: Pretendard-Bold;
+    font-family: 22px;
+}
+.summ1{
+    font-family: 'Pretendard-Bold';
+    line-height: 1.5em;
+    font-size: 16px;
+}
+#contents{
+    float:left;
+    width:800px;
+    margin-left: 40px;
+    margin-top: 60px;
+    /* border:solid 1px red; */
+
+}
+#line{
+    width:1400px;
+    height: 4px;
+    background-color: black;
+}
+.firstcon{
+    transition: all 0.2s linear;
+}
+.firstcon:hover{
+    transform: rotate( -10deg );
+}
+.seccon{
+    transition: all 0.2s linear;
+}
+.seccon:hover{
+    transform: rotate( -10deg );
+}
+    </style>
+</head>
+<body>
+    <header>
+        <div id="logo"><a href='index.html'><img src="mainlogo.png" width="60"></a></div>
+        <nav id="menus">
+            <ul id="mainmenu">
+                <a href='first.html'><li>기후위기</li></a>
+                <a href='second.html'><li>탄소중립</li></a>
+                <a href='third.html'><li>우리의 약속</li></a>
+                <a href='fourth.html'><li>개인의 실천</li></a>
+                <a href='earth.html'><li>EARTH</li></a>
+            </ul>
+        </nav>
+    </header>
+    <section class='info'>
+        <div id="earthturn"> 
+            <img class='earth' src='lastimg/earthimg3.png' width="180"> &nbsp;&nbsp;&nbsp;
+            <img class='earth' src='lastimg/earthimg3.png' width="180"> &nbsp;&nbsp;&nbsp;
+            <img class='earth' src='lastimg/earthimg3.png' width="180"> 
+        </div>
+        <div class="clear"></div>
+        <div id="earthsen">
+          <div id="firstcontent"><img class='firstcon' src='lastimg/artedit.png'width='350'></div>
+          <br>
+          <div id="secondcontent"><img class='seccon' src="lastimg/earthedit.png" width="500"></div> 
+        </div>
+      <div id="firsttext"> <img src='lastimg/artearth.png'width='170'><br>
+        <p class="summ">예술계에서도 기후위기와 관련된 인식과 활동들이 서서히 나타나고 있다. <br>
+        예술가들이 기후위기 캠페인에 참여하는 것이나 작품의 주제로 기후위기를 <br>
+        다루는 경우가 있는가하면, 아예 작업이나 활동방식을 기후위기에 맞춰 <br>
+        바꿔내는 경우도 생기고 있다. 다음은 몇 가지 사례의 작업물들이다.</p> </div>
+        <div class="clear"></div>
+        <br>
+        <br>
+        <br>
+        <div id="line"></div>
+        <br>
+        <br>
+        <div id="contents"><h1>김하늘 디자이너의 폐마스크로 만든 의자</h1><br>
+        <p class="summ1"> 코로나19 사태 이후 마스크는 우리의 일상이 됐다. 마스크는 한 번 쓰고 나면 하루를 채 <br>
+            넘기지 않고 버려져 심각한 환경오염의 원인이 되기도 한다. 올해 계원예술대 리빙디자인학과를 <br>
+            졸업한 김하늘 디자이너(24)는 자신의 전공을 활용해 마스크 쓰레기를 재활용할 방법을 찾아냈다. <br>
+            버려지는 마스크를 녹이고 다시 굳히는 과정을 통해 의자, 책상 등 가구를 만들어낸 것이다.<br>
+            마스크를 재활용할 수 있음과 동시에 개성있는 디자인의 의자로 많은 주목을 받고있다.<br>
+        </p></div>
+        <div id="image"><img src=lastimg/chair.jpg></div>
+        <div class="clear"></div>
+        <br>
+        <br>
+        <div id="line"></div>
+        <br>
+        <br>
+        <div id="contents"><h1>이슬아 디자이너의 NEW KIT</h1><br>
+            <p class="summ1"> 지구온난화 등의 기후변화로 인해 생겨나는 멸종위기동물들에 관심을 갖고<br>
+                만든 멸종위기동물을 위한 브랜드이다.멸종위기동물 종들이 그려진 굿즈들을 통해<br> 
+                사람들이 환경 이슈에 대해 생각해볼 수 있도록 하며, 구매가 기부로 이어진다.<br>
+            </p></div>
+            <div id="image"><img src=lastimg/newkit.jpg width="550"></div>
+        <br>
+        <br>
+        <div id="line"></div>
+        <br>
+        <br>
+        <div id="contents"><h1>디자이너 저스틴 멘싱어의 패치워크디자인</h1><br>
+            <p class="summ1"> 시카고를 기반으로 활동하는 업사이클링 디자이너 저스틴 멘싱어는 <br>
+                빈티지 소재들을 사용하여 독특한 스트리트 웨어를 만들고 있다. 집착에 가까울 정도로 <br>
+                노력하는 그의 노력은 어디서 보기 힘든 독특한 디자인을 탄생시키고 있는 중이다.
+            </p></div>
+            <div id="image"><img src=lastimg/adidas.jpg width="550"></div>
+            <br>
+            <br>
+            <div id="line"></div>
+        
+      
+               
+   </section>
+
+
+    <footer>
+        <div id="footer_box">
+        <div id="footerlogo"><a href='index.html'><img src="mainlogo.png" width="50"></a></div>
+        <div id="footerinfo">
+            <p> 디자이너의 기후위기 웹사이트 </p>
+            <p> 계원예술대학교 디지털미디어디자인과</p>
+        </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
